@@ -29,7 +29,7 @@ define(['kickstart', 'module', 'path', 'fs'], function (kickstart, module, path,
    * Catch request for serving home page
    */
   srv.all('/', function(req, res) {
-    res.render('home', {jsApp: 'main', active: 'home', title: 'noduino', 'examples': examples});
+    res.render('home', {jsApp: 'main', active: 'example-test', title: 'noduino', 'examples': examples});
   });
 
   /** 
